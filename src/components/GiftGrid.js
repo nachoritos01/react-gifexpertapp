@@ -10,7 +10,7 @@ export const GiftGrid = ({category}) => {
     return (
         <>
             <h3>{category}</h3>
-            { loading && <p>Loading</p>}
+            { loading && <p className="animate__animated animate__fadeIn">Loading</p>}
             <div className="card-grid">
                 {/* Mandamos los valores al componente individualmente cap 75 */}
                 { images.map((img)=>( <GiftGridItem key={img.id} {... img}/>))}
