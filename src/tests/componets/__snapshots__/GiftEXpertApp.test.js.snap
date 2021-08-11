@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el componente <GiftEXpertApp/> Deberia de mostrar una lista de categorias  1`] = `
+<div>
+  <h2>
+     GifExperrtApp 
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GiftGrid
+      category="One puch men"
+      key="One puch men"
+    />
+    <GiftGrid
+      category="Dragon ball"
+      key="Dragon ball"
+    />
+  </ol>
+</div>
+`;
+
+exports[`Probando el componente <GiftEXpertApp/> Deberia de mostrarse el componente  1`] = `
+<div>
+  <h2>
+     GifExperrtApp 
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GiftGrid
+      category="One puch"
+      key="One puch"
+    />
+  </ol>
+</div>
+`;
+
+exports[`Probando el componente <GiftEXpertApp/> Deberia de mostrarse el componente correctamente  1`] = `
+<div>
+  <h2>
+     GifExperrtApp 
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GiftGrid
+      category="One puch"
+      key="One puch"
+    />
+  </ol>
+</div>
+`;

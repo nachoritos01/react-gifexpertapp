@@ -3,7 +3,6 @@ export const getGifts= async (category)=>{
 
     const resp = await fetch(url);
     const {data} = await resp.json();
-    console.log(data);
     const gifts = data.map( img =>{
         return {
             id: img.id,
@@ -14,7 +13,5 @@ export const getGifts= async (category)=>{
     });
 
     return gifts;
-
-    // setstateImages(gifts);
     
 }
